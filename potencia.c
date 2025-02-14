@@ -8,14 +8,6 @@ void potencia(int* resultado, int base, int expoente){
     }
 }
 
-/*
-void potencia(int* resultado, int base, int expoente){
-    *resultado = pow(base, expoente);
-}
-
-*/
-
-
 int main() {
     int resultado;
     potencia(&resultado, 10, 5);
